@@ -1,40 +1,35 @@
 public class book {
-    private String isbn;
     private String title;
-    private boolean available;
+    private String author;
+    private boolean isAvailable;
 
-    public book(String isbn, String title) {
-        this.isbn = isbn;
+    public book(String title, String author) {
         this.title = title;
-        this.available = true;
-    }
-
-    public String getIsbn() {
-        return isbn;
+        this.author = author;
+        this.isAvailable = true;
     }
 
     public String getTitle() {
         return title;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
     public boolean isAvailable() {
-        return available;
+        return isAvailable;
     }
 
     public boolean borrowBook() {
-        if (available) {
-            available = false;
+        if (isAvailable) {
+            isAvailable = false;
             return true;
         }
         return false;
     }
 
     public void returnBook() {
-        available = true;
-    }
-
-    @Override
-    public String toString() {
-        return "Book [ISBN=" + isbn + ", Title=" + title + ", Available=" + available + "]";
+        isAvailable = true;
     }
 }
