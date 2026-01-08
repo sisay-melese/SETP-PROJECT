@@ -1,19 +1,19 @@
 # DIRE DAWA UNIVERSITY
  # SETP-PROJECT
 # Library Management System – SETP Assignment
- Name................................id
+ Name...................................id
  
- 1.Sisay melese...................1600669
+ 1.Sisay melese......................1600669
  
- 2.Mebrahtu seife.................1600499
+ 2.Mebrahtu seife....................1600499
  
- 3.Megersa bekele...................1613
+ 3.Megersa bekele.....................1613
  
  4.Mirkat dawit......................1600550
  
  5.Solomon geta.......................1600673
  
- 6.Abel alemu.........................1600040
+ 6.Abel alemu.......................1600040
 
 This project is a Library Management System developed as part of the
 Software Engineering Tools and Practices (SETP) course.
@@ -80,4 +80,5 @@ https://github.com/sisay-melese/SETP-PROJECT
 GitHub (https://github.com/sisay-melese/SETP-PROJECT)
 GitHub - sisay-melese/SETP-PROJECT
 Contribute to sisay-melese/SETP-PROJECT development by creating an account on GitHub.
+
 
